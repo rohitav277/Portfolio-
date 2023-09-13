@@ -182,6 +182,8 @@ ul li a:hover:after {
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
+    transition: all 1s ease;
+    border-radius: 15px;
   }
 
   nav #check:checked ~ ul {
