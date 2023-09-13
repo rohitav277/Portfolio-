@@ -2,43 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="ham_new.css" />
-    <title>Your Title Here</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
   </head>
   <body>
-    <div>
-      <nav >
-        <img src="./Untitled_design-removebg-preview.png
-" class="logo" />
-        <ul id="desktop">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li.>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-      <div class="content">
-        <span class="title">Web Developer</span>
-        <h1>Hello, I’m <span>Rohit</span></h1>
-        <p>
-          I’m working on a professional, visually sophisticated and
-          technologically proficient, responsive and multi-functional React
-          Components.
-        </p>
-        <a href="#" class="btn">Download CV</a>
-      </div>
-    </div id= "ham_nav">
-           <label>
-        <input type="checkbox">
-        <span class="menu"> <span class="hamburger"></span> </span>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li.>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
+    <nav>
+      <div class="nav__content">
+        <img src="./Untitled_design-removebg-preview.png" class="logo" />
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
         </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Rohit VIshwakarma<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my personal portfolio! I'm Rohit Vishwakarma, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <a href="#" class="Resume">Download CV</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./Untitled_design-removebg-preview.png" alt="profile" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
