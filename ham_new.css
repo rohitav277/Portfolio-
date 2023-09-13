@@ -172,18 +172,18 @@ ul li a:hover:after {
     display: block;
   }
 
-  ul {
+ ul {
     position: absolute;
     width: 80%;
-    height: calc(100vh - 85px);
+    height: calc(60vh - 0px);
     left: -100%;
-    top: 85px;
+    top: 0px;
     background-color: var(--extra-light);
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
     transition: all 1s ease;
-    border-radius: 15px;
+    border-radius: 10px;
   }
 
   nav #check:checked ~ ul {
