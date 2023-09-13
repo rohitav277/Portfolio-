@@ -174,7 +174,7 @@ ul li a:hover:after {
 
   ul {
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: calc(100vh - 85px);
     left: -100%;
     top: 85px;
