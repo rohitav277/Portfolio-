@@ -247,7 +247,9 @@ ul li a:hover:after {
   height: 100%;
   bottom: 0; 
   left: 0;
-  background: linear-gradient(transparent, black);
+  background: linear-gradient(180deg,
+               hsla(var(--hue),24%, 40%, .3)0%
+               hsla(var(--hue),24%, 4%, 1) 95%);
   display: grid;
   align-items: flex-end;
   padding: 1.5rem 1.25rem;
@@ -268,3 +270,6 @@ font-size: 15px;
 margin-bottom: .75rem;
 }
 
+.projects__button{
+  padding: 0.5rem;
+}
